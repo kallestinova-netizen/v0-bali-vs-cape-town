@@ -1,7 +1,17 @@
 "use client"
 
+import { motion } from "framer-motion"
 import { AnimatedSection, StaggerContainer, StaggerItem } from "../animated-section"
 import { WaveDivider } from "../wave-divider"
+
+const rowVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.08, duration: 0.5, ease: "easeOut" }
+  })
+}
 
 const comparisonData = [
   {
@@ -82,58 +92,67 @@ export function Slide03Comparison() {
 
         {/* Desktop Table */}
         <div className="hidden md:block overflow-x-auto">
-          <StaggerContainer staggerDelay={0.08}>
-            <table className="w-full">
-              <thead>
-                <StaggerItem>
-                  <tr className="border-b border-line">
-                    <th className="text-left py-4 pr-4 label-tag text-foreground-muted w-1/4">
-                      Parameter
-                    </th>
-                    <th className="text-left py-4 px-4 w-[37.5%]">
-                      <span className="inline-flex items-center gap-2">
-                        <span className="w-3 h-3 rounded-full bg-bali" />
-                        <span className="label-tag text-bali">Bali</span>
-                      </span>
-                    </th>
-                    <th className="text-left py-4 pl-4 w-[37.5%]">
-                      <span className="inline-flex items-center gap-2">
-                        <span className="w-3 h-3 rounded-full bg-capetown" />
-                        <span className="label-tag text-capetown">Cape Town</span>
-                      </span>
-                    </th>
-                  </tr>
-                </StaggerItem>
-              </thead>
-              <tbody>
-                {comparisonData.map((row, index) => (
-                  <StaggerItem key={index}>
-                    <tr className="border-b border-line/50 hover:bg-card/50 transition-colors">
-                      <td className="py-4 pr-4 body-text font-medium text-foreground">
-                        {row.parameter}
-                      </td>
-                      <td className={`py-4 px-4 body-text ${row.highlight === 'bali' ? 'text-foreground font-medium' : 'text-foreground-muted'}`}>
-                        <span className="flex items-center gap-2">
-                          {row.bali}
-                          {row.baliTag && (
-                            <span className="badge badge-bali">{row.baliTag}</span>
-                          )}
-                        </span>
-                      </td>
-                      <td className={`py-4 pl-4 body-text ${row.highlight === 'capetown' ? 'text-foreground font-medium' : 'text-foreground-muted'}`}>
-                        <span className="flex items-center gap-2">
-                          {row.capetown}
-                          {row.capetownTag && (
-                            <span className="badge badge-capetown">{row.capetownTag}</span>
-                          )}
-                        </span>
-                      </td>
-                    </tr>
-                  </StaggerItem>
-                ))}
-              </tbody>
-            </table>
-          </StaggerContainer>
+          <table className="w-full">
+            <thead>
+              <motion.tr 
+                className="border-b border-line"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, margin: "-50px" }}
+                variants={rowVariants}
+                custom={0}
+              >
+                <th className="text-left py-4 pr-4 label-tag text-foreground-muted w-1/4">
+                  Parameter
+                </th>
+                <th className="text-left py-4 px-4 w-[37.5%]">
+                  <span className="inline-flex items-center gap-2">
+                    <span className="w-3 h-3 rounded-full bg-bali" />
+                    <span className="label-tag text-bali">Bali</span>
+                  </span>
+                </th>
+                <th className="text-left py-4 pl-4 w-[37.5%]">
+                  <span className="inline-flex items-center gap-2">
+                    <span className="w-3 h-3 rounded-full bg-capetown" />
+                    <span className="label-tag text-capetown">Cape Town</span>
+                  </span>
+                </th>
+              </motion.tr>
+            </thead>
+            <tbody>
+              {comparisonData.map((row, index) => (
+                <motion.tr 
+                  key={index}
+                  className="border-b border-line/50 hover:bg-card/50 transition-colors"
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, margin: "-50px" }}
+                  variants={rowVariants}
+                  custom={index + 1}
+                >
+                  <td className="py-4 pr-4 body-text font-medium text-foreground">
+                    {row.parameter}
+                  </td>
+                  <td className={`py-4 px-4 body-text ${row.highlight === 'bali' ? 'text-foreground font-medium' : 'text-foreground-muted'}`}>
+                    <span className="flex items-center gap-2">
+                      {row.bali}
+                      {row.baliTag && (
+                        <span className="badge badge-bali">{row.baliTag}</span>
+                      )}
+                    </span>
+                  </td>
+                  <td className={`py-4 pl-4 body-text ${row.highlight === 'capetown' ? 'text-foreground font-medium' : 'text-foreground-muted'}`}>
+                    <span className="flex items-center gap-2">
+                      {row.capetown}
+                      {row.capetownTag && (
+                        <span className="badge badge-capetown">{row.capetownTag}</span>
+                      )}
+                    </span>
+                  </td>
+                </motion.tr>
+              ))}
+            </tbody>
+          </table>
         </div>
 
         {/* Mobile Cards */}
