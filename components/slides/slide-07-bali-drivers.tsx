@@ -48,8 +48,7 @@ export function Slide07BaliDrivers() {
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Uluwatu-Bali-Cliffs-and-Waves-IziEslgnMuI9eDyscEXVhogSi4d0Ht.webp"
                 alt="Uluwatu Bali cliffs with turquoise ocean waves"
-                className="absolute inset-0 w-full h-full object-cover"
-                style={{ objectPosition: '50% 0%' }}
+                className="absolute inset-0 w-full h-full object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-dark/30 to-transparent lg:bg-gradient-to-l" />
             </div>
