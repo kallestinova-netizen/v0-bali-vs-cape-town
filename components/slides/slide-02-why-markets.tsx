@@ -91,7 +91,8 @@ export function Slide02WhyMarkets() {
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%B7%D0%BE%D0%BD%D1%82%D0%B8%D0%BA%D0%B8%20-1rULTztZV6z2EN346KvDxjcuvjalmz.jpg"
                 alt="Aerial view of Bali beach with turquoise water and colorful umbrellas"
-                className="absolute inset-0 w-full h-full object-cover object-top"
+                className="absolute inset-0 w-full h-full object-cover"
+                style={{ objectPosition: '50% 80%' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/20 to-transparent" />
             </div>
