@@ -57,8 +57,12 @@ export function Slide01Hero() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="inline-flex items-center gap-3 mb-12"
             >
-              <div className="w-10 h-10 rounded-full bg-warm/20 flex items-center justify-center">
-                <span className="font-serif font-bold text-warm">K</span>
+              <div className="w-10 h-10 rounded-xl overflow-hidden shadow-lg border border-white/20">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BA%D1%83%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20-fybfaC34u6VNx8dyjjRoZ44NGHz8HX.jpg"
+                  alt="Kristina Kuchinskaya"
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               <div>
                 <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/60">
