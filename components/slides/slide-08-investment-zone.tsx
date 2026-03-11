@@ -24,7 +24,7 @@ export function Slide08InvestmentZone() {
   return (
     <section 
       id="slide-8" 
-      className="relative py-24 md:py-32 bg-background-secondary overflow-hidden"
+      className="relative py-16 md:py-20 lg:py-24 bg-background-secondary overflow-hidden"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -111,10 +111,18 @@ export function Slide08InvestmentZone() {
               ))}
             </StaggerContainer>
 
-            {/* Quote */}
+            {/* Quote with Expert Photo */}
             <AnimatedSection delay={0.3}>
               <div className="flex items-start gap-4">
-                <Globe className="w-5 h-5 text-bali shrink-0 mt-1" />
+                <div className="shrink-0">
+                  <div className="w-14 h-14 rounded-xl overflow-hidden shadow-md border border-line/50">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BA%D1%83%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20-fybfaC34u6VNx8dyjjRoZ44NGHz8HX.jpg"
+                      alt="Kristina Kuchinskaya"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </div>
+                </div>
                 <blockquote className="quote-block flex-1">
                   <p className="font-serif font-medium italic text-base text-foreground leading-relaxed">
                     "In my experience, the majority of inquiries in Uluwatu and Bingin 

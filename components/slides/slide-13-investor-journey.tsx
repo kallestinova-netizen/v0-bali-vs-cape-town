@@ -31,7 +31,7 @@ export function Slide13InvestorJourney() {
   return (
     <section 
       id="slide-13" 
-      className="relative py-24 md:py-32 bg-background-secondary overflow-hidden"
+      className="relative py-16 md:py-20 lg:py-24 bg-background-secondary overflow-hidden"
     >
       {/* Background world map pattern */}
       <div className="absolute inset-0 opacity-[0.03]">

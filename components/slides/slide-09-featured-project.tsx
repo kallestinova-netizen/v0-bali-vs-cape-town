@@ -34,7 +34,7 @@ export function Slide09FeaturedProject() {
   return (
     <section 
       id="slide-9" 
-      className="relative py-24 md:py-32 bg-dark text-dark-foreground overflow-hidden noise-overlay"
+      className="relative py-16 md:py-20 lg:py-24 bg-dark text-dark-foreground overflow-hidden noise-overlay"
     >
       {/* Background image with overlay */}
       <div className="absolute inset-0">
@@ -166,16 +166,27 @@ export function Slide09FeaturedProject() {
               </div>
             </AnimatedSection>
 
-            {/* Quote */}
+            {/* Quote with Expert Photo */}
             <AnimatedSection delay={0.35}>
-              <blockquote className="border-l-[3px] border-warm pl-5 py-4">
-                <p className="font-serif font-medium italic text-lg text-white/90 leading-relaxed">
-                  "I know this project from the inside — I invested in it myself."
-                </p>
-                <cite className="block mt-3 font-mono text-[10px] uppercase tracking-wider text-white/50 not-italic">
-                  — Kristina Kuchinskaya
-                </cite>
-              </blockquote>
+              <div className="flex items-start gap-4">
+                <div className="shrink-0">
+                  <div className="w-14 h-14 rounded-xl overflow-hidden shadow-lg border border-white/20">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BA%D1%83%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20-fybfaC34u6VNx8dyjjRoZ44NGHz8HX.jpg"
+                      alt="Kristina Kuchinskaya"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </div>
+                </div>
+                <blockquote className="border-l-[3px] border-warm pl-5 py-2 flex-1">
+                  <p className="font-serif font-medium italic text-lg text-white/90 leading-relaxed">
+                    "I know this project from the inside — I invested in it myself."
+                  </p>
+                  <cite className="block mt-3 font-mono text-[10px] uppercase tracking-wider text-white/50 not-italic">
+                    — Kristina Kuchinskaya
+                  </cite>
+                </blockquote>
+              </div>
             </AnimatedSection>
           </div>
         </div>

@@ -29,7 +29,7 @@ export function Slide06Sources() {
   return (
     <section 
       id="slide-6" 
-      className="relative py-24 md:py-32 bg-background-secondary"
+      className="relative py-16 md:py-20 lg:py-24 bg-background-secondary"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
         <AnimatedSection>

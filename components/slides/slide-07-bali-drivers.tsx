@@ -38,7 +38,7 @@ export function Slide07BaliDrivers() {
   return (
     <section 
       id="slide-7" 
-      className="relative py-24 md:py-32 bg-background overflow-hidden"
+      className="relative py-16 md:py-20 lg:py-24 bg-background overflow-hidden"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">

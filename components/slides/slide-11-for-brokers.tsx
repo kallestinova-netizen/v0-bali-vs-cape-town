@@ -52,7 +52,7 @@ export function Slide11ForBrokers() {
   return (
     <section 
       id="slide-11" 
-      className="relative py-24 md:py-32 bg-background-secondary overflow-hidden"
+      className="relative py-16 md:py-20 lg:py-24 bg-background-secondary overflow-hidden"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-5 gap-12 lg:gap-16">

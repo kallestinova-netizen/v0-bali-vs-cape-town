@@ -14,7 +14,7 @@ export function Slide12Partnership() {
   return (
     <section 
       id="slide-12" 
-      className="relative py-24 md:py-32 bg-background"
+      className="relative py-16 md:py-20 lg:py-24 bg-background"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
         <AnimatedSection>
@@ -81,15 +81,26 @@ export function Slide12Partnership() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.3}>
-              <blockquote className="quote-block border-l-warm">
-                <p className="font-serif font-medium italic text-lg text-foreground leading-relaxed">
-                  "I work with brokers the way I'd want to be worked with — 
-                  transparent terms, protected leads, and a product I've invested in myself."
-                </p>
-                <cite className="block mt-4 font-mono text-[10px] uppercase tracking-wider text-foreground-muted not-italic">
-                  — Kristina Kuchinskaya
-                </cite>
-              </blockquote>
+              <div className="flex items-start gap-4">
+                <div className="shrink-0">
+                  <div className="w-14 h-14 rounded-xl overflow-hidden shadow-md border border-line/50">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BA%D1%83%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20-fybfaC34u6VNx8dyjjRoZ44NGHz8HX.jpg"
+                      alt="Kristina Kuchinskaya"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </div>
+                </div>
+                <blockquote className="quote-block border-l-warm flex-1">
+                  <p className="font-serif font-medium italic text-base text-foreground leading-relaxed">
+                    "I work with brokers the way I'd want to be worked with — 
+                    transparent terms, protected leads, and a product I've invested in myself."
+                  </p>
+                  <cite className="block mt-3 font-mono text-[10px] uppercase tracking-wider text-foreground-muted not-italic">
+                    — Kristina Kuchinskaya
+                  </cite>
+                </blockquote>
+              </div>
             </AnimatedSection>
           </div>
         </div>
