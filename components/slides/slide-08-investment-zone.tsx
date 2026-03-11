@@ -37,13 +37,40 @@ export function Slide08InvestmentZone() {
                 className="w-full h-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/50 to-transparent" />
-              <div className="absolute bottom-6 left-6 right-6">
+              <div className="absolute bottom-6 left-6 right-6 space-y-3">
+                {/* Location card */}
                 <div className="bg-white/95 backdrop-blur-sm rounded-xl p-4">
                   <p className="font-mono text-[10px] uppercase tracking-wider text-bali mb-1">
                     Investment Zone
                   </p>
                   <p className="font-serif font-semibold text-lg text-foreground">
                     Bingin · Dreamland · Uluwatu
+                  </p>
+                </div>
+                {/* Stats card */}
+                <div className="bg-white/95 backdrop-blur-sm rounded-xl p-4">
+                  <div className="grid grid-cols-3 gap-3 text-center">
+                    <div>
+                      <p className="font-serif font-bold text-xl text-bali">+26.3%</p>
+                      <p className="font-mono text-[9px] uppercase tracking-wider text-foreground-muted leading-tight">
+                        Rental listings<br />growth YoY
+                      </p>
+                    </div>
+                    <div className="border-x border-line">
+                      <p className="font-serif font-bold text-xl text-foreground">$178</p>
+                      <p className="font-mono text-[9px] uppercase tracking-wider text-foreground-muted leading-tight">
+                        Average daily<br />rate (ADR)
+                      </p>
+                    </div>
+                    <div>
+                      <p className="font-serif font-bold text-xl text-bali">86%</p>
+                      <p className="font-mono text-[9px] uppercase tracking-wider text-foreground-muted leading-tight">
+                        Average<br />occupancy
+                      </p>
+                    </div>
+                  </div>
+                  <p className="font-mono text-[8px] text-foreground-muted text-center mt-3 pt-2 border-t border-line/50">
+                    Source: AirDNA · Bali, 2025
                   </p>
                 </div>
               </div>
