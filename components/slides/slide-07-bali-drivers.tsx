@@ -46,11 +46,12 @@ export function Slide07BaliDrivers() {
           <AnimatedSection className="relative order-2 lg:order-1 h-full">
             <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=800&h=1000&fit=crop&q=80"
-                alt="Uluwatu clifftop villas with surfers below"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Uluwatu-Bali-Cliffs-and-Waves-IziEslgnMuI9eDyscEXVhogSi4d0Ht.webp"
+                alt="Uluwatu Bali cliffs with turquoise ocean waves"
                 className="absolute inset-0 w-full h-full object-cover"
+                style={{ objectPosition: '50% 30%' }}
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-dark/40 to-transparent lg:bg-gradient-to-l" />
+              <div className="absolute inset-0 bg-gradient-to-r from-dark/30 to-transparent lg:bg-gradient-to-l" />
             </div>
           </AnimatedSection>
 
