@@ -26,7 +26,7 @@ export function Slide02WhyMarkets() {
                 <div className="panel border-t-[3px] border-t-bali">
                   <p className="label-tag text-bali mb-2">Bali</p>
                   <p className="data-number text-foreground">
-                    <CountUp end={6.3} decimals={1} suffix="M" />
+                    <CountUp end={6.5} decimals={1} suffix="M" />
                   </p>
                   <p className="body-text text-foreground-muted mt-2">
                     international tourists in 2024
@@ -42,7 +42,7 @@ export function Slide02WhyMarkets() {
                     <CountUp end={40} suffix="%" />
                   </p>
                   <p className="body-text text-foreground-muted mt-2">
-                    of luxury sales above R10M — foreign buyers
+                    of luxury sales above 600+$ — foreign buyers
                   </p>
                   <p className="source-line mt-3">Source: Pam Golding, 2025</p>
                 </div>
