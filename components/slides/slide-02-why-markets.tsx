@@ -10,7 +10,7 @@ export function Slide02WhyMarkets() {
       className="relative py-24 md:py-32 bg-background overflow-hidden"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
           {/* Left column - Content */}
           <div>
             <AnimatedSection>
@@ -85,15 +85,15 @@ export function Slide02WhyMarkets() {
             </AnimatedSection>
           </div>
 
-          {/* Right column - Image */}
-          <AnimatedSection delay={0.2} className="relative">
-            <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden">
+          {/* Right column - Image (vertical, matches left column height) */}
+          <AnimatedSection delay={0.2} className="relative h-full">
+            <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=800&h=1000&fit=crop&q=80"
-                alt="Aerial view of Bali's turquoise coastline with cliffs"
-                className="w-full h-full object-cover"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%B7%D0%BE%D0%BD%D1%82%D0%B8%D0%BA%D0%B8%20-1rULTztZV6z2EN346KvDxjcuvjalmz.jpg"
+                alt="Aerial view of Bali beach with turquoise water and colorful umbrellas"
+                className="absolute inset-0 w-full h-full object-cover object-top"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-dark/30 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-dark/20 to-transparent" />
             </div>
           </AnimatedSection>
         </div>
