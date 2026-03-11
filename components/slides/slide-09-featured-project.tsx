@@ -11,8 +11,8 @@ const marketComparables = [
 ]
 
 const projectPricing = [
-  { type: "2BR", specs: "137m² · 2-storey · private pool", price: "$288,000" },
-  { type: "3BR", specs: "100% payment", price: "$336,000" },
+  { type: "2BR", specs: "127m² · installment plan", price: "$288,000" },
+  { type: "3BR", specs: "137m² · installment plan", price: "$336,000" },
 ]
 
 const keyParams = [
