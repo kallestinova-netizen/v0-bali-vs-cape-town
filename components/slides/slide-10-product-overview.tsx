@@ -6,7 +6,7 @@ import { Home, Settings, Users } from "lucide-react"
 const columns = [
   {
     icon: Home,
-    title: "2-Bedroom Designer Villas",
+    title: "2 and 3 bedroom Designer Villas",
     items: [
       "137m² · 2 floors · private pool",
       "Premium architecture",
