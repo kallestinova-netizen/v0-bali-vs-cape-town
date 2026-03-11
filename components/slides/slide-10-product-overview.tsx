@@ -30,8 +30,8 @@ const columns = [
       "30+ booking platforms",
       "Peak ADR x1.5–2 (July–September)",
     ],
-    image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=600&h=400&fit=crop&q=80",
-    imageAlt: "Villa pool outdoor lounge area"
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2%20%D0%BA%D0%BE%D0%BB%D0%BE%D0%BD%D0%BA%D0%B0-W8RpP0OmPJgp6k5Zi6dLlvXMdx9Y8B.jpg",
+    imageAlt: "Minimalist bedroom with wooden slat wall and platform bed"
   },
   {
     icon: Users,
