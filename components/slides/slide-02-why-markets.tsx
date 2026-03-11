@@ -85,17 +85,21 @@ export function Slide02WhyMarkets() {
             </AnimatedSection>
           </div>
 
-          {/* Right column - Image (vertical, matches left column height) */}
-          <AnimatedSection delay={0.2} className="relative h-full">
-            <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden">
+          {/* Right column - Cape Town Image (vertical, matches left column height) */}
+          <AnimatedSection delay={0.2} className="relative h-full flex flex-col">
+            <div className="relative flex-1 min-h-[400px] rounded-2xl overflow-hidden">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%B7%D0%BE%D0%BD%D1%82%D0%B8%D0%BA%D0%B8%20-1rULTztZV6z2EN346KvDxjcuvjalmz.jpg"
-                alt="Aerial view of Bali beach with turquoise water and colorful umbrellas"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BA%D0%B5%D0%B8%CC%86%D0%BF-06Fw7Z71NYtscH7cOTBLI2BxIALmTk.jpg"
+                alt="Aerial view of Cape Town with Twelve Apostles mountains and Camps Bay beach"
                 className="absolute inset-0 w-full h-full object-cover"
-                style={{ objectPosition: '50% 80%' }}
+                style={{ objectPosition: '70% 50%' }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-dark/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-dark/30 to-transparent" />
             </div>
+            {/* Caption */}
+            <p className="font-mono text-[11px] uppercase tracking-wider text-foreground-muted text-center mt-3">
+              Cape Town, South Africa
+            </p>
           </AnimatedSection>
         </div>
       </div>
