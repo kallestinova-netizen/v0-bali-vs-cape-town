@@ -25,15 +25,15 @@ const capetownSources = [
   "DG Properties Luxury Market Review 2025",
 ]
 
-export function Slide07Sources() {
+export function Slide06Sources() {
   return (
     <section 
-      id="slide-7" 
+      id="slide-6" 
       className="relative py-24 md:py-32 bg-background-secondary"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
         <AnimatedSection>
-          <p className="label-tag mb-4">07 — Sources & Methodology</p>
+          <p className="label-tag mb-4">06 — Sources & Methodology</p>
           <h2 className="h2-section text-foreground mb-12">
             Data Sources
           </h2>

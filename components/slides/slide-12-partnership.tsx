@@ -10,15 +10,15 @@ const terms = [
   "Full broker support through to contract signing",
 ]
 
-export function Slide13Partnership() {
+export function Slide12Partnership() {
   return (
     <section 
-      id="slide-13" 
+      id="slide-12" 
       className="relative py-24 md:py-32 bg-background"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
         <AnimatedSection>
-          <p className="label-tag mb-4">13 — Partnership Terms</p>
+          <p className="label-tag mb-4">12 — Partnership Terms</p>
           <h2 className="h2-section text-foreground mb-12">
             Broker Partnership
           </h2>

@@ -10,16 +10,15 @@ const slides = [
   { id: 3, label: "Market Comparison" },
   { id: 4, label: "Buyer Profiles" },
   { id: 5, label: "Investment Motivation" },
-  { id: 6, label: "Yield & Return" },
-  { id: 7, label: "Sources" },
-  { id: 8, label: "Bali Drivers" },
-  { id: 9, label: "Investment Zone" },
-  { id: 10, label: "Featured Project" },
-  { id: 11, label: "Product Overview" },
-  { id: 12, label: "For Brokers" },
-  { id: 13, label: "Partnership" },
-  { id: 14, label: "Investor Journey" },
-  { id: 15, label: "Contact" },
+  { id: 6, label: "Sources" },
+  { id: 7, label: "Bali Drivers" },
+  { id: 8, label: "Investment Zone" },
+  { id: 9, label: "Featured Project" },
+  { id: 10, label: "Product Overview" },
+  { id: 11, label: "For Brokers" },
+  { id: 12, label: "Partnership" },
+  { id: 13, label: "Investor Journey" },
+  { id: 14, label: "Contact" },
 ]
 
 export function SlideNavigation() {
@@ -112,7 +111,7 @@ export function SlideNavigation() {
         animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : -20 }}
         className="fixed top-4 left-4 md:hidden z-50 px-3 py-1.5 rounded-full bg-card card-shadow font-mono text-[10px] uppercase tracking-wider text-foreground-muted print:hidden"
       >
-        {activeSlide} / 15
+        {activeSlide} / 14
       </motion.div>
     </>
   )

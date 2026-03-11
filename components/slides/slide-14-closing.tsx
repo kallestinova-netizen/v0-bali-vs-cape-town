@@ -10,10 +10,10 @@ const brokerPackItems = [
   "Independent market analytics report (Bali + Cape Town, sourced data)",
 ]
 
-export function Slide15Closing() {
+export function Slide14Closing() {
   return (
     <section 
-      id="slide-15" 
+      id="slide-14" 
       className="relative min-h-screen bg-dark text-dark-foreground overflow-hidden noise-overlay"
     >
       {/* Background image */}
@@ -31,7 +31,7 @@ export function Slide15Closing() {
           {/* Left column - Content */}
           <div className="flex flex-col justify-center">
             <AnimatedSection>
-              <p className="label-tag text-foreground-muted mb-6">15 — Let's Work Together</p>
+              <p className="label-tag text-foreground-muted mb-6">14 — Let's Work Together</p>
               <h1 className="h1-display text-white mb-6">
                 Let's Build
                 <br />

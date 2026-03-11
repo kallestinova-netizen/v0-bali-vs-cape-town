@@ -48,10 +48,10 @@ const reasons = [
   },
 ]
 
-export function Slide12ForBrokers() {
+export function Slide11ForBrokers() {
   return (
     <section 
-      id="slide-12" 
+      id="slide-11" 
       className="relative py-24 md:py-32 bg-background-secondary overflow-hidden"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
@@ -59,7 +59,7 @@ export function Slide12ForBrokers() {
           {/* Left column - Content */}
           <div className="lg:col-span-3">
             <AnimatedSection>
-              <p className="label-tag mb-4">12 — For Brokers</p>
+              <p className="label-tag mb-4">11 — For Brokers</p>
               <h2 className="h2-section text-foreground mb-10">
                 Why Brokers Love This Project
               </h2>

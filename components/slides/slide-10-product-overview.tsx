@@ -45,15 +45,15 @@ const columns = [
   },
 ]
 
-export function Slide11ProductOverview() {
+export function Slide10ProductOverview() {
   return (
     <section 
-      id="slide-11" 
+      id="slide-10" 
       className="relative py-24 md:py-32 bg-background"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
         <AnimatedSection>
-          <p className="label-tag mb-4">11 — Product Overview</p>
+          <p className="label-tag mb-4">10 — Product Overview</p>
           <h2 className="h2-section text-foreground mb-12">
             What You're Selling
           </h2>

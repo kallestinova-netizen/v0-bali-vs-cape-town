@@ -34,10 +34,10 @@ const drivers = [
   },
 ]
 
-export function Slide08BaliDrivers() {
+export function Slide07BaliDrivers() {
   return (
     <section 
-      id="slide-8" 
+      id="slide-7" 
       className="relative py-24 md:py-32 bg-background overflow-hidden"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
@@ -57,7 +57,7 @@ export function Slide08BaliDrivers() {
           {/* Right column - Content */}
           <div className="order-1 lg:order-2">
             <AnimatedSection>
-              <p className="label-tag mb-4">08 — Bali Market Drivers</p>
+              <p className="label-tag mb-4">07 — Bali Market Drivers</p>
               <h2 className="h2-section text-foreground mb-10">
                 Key Drivers of Bali Demand
               </h2>

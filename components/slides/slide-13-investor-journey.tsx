@@ -27,10 +27,10 @@ const journeySteps = [
   },
 ]
 
-export function Slide14InvestorJourney() {
+export function Slide13InvestorJourney() {
   return (
     <section 
-      id="slide-14" 
+      id="slide-13" 
       className="relative py-24 md:py-32 bg-background-secondary overflow-hidden"
     >
       {/* Background world map pattern */}
@@ -45,7 +45,7 @@ export function Slide14InvestorJourney() {
 
       <div className="relative z-10 max-w-[1200px] mx-auto px-6 md:px-8">
         <AnimatedSection>
-          <p className="label-tag mb-4">14 — Investor Journey</p>
+          <p className="label-tag mb-4">13 — Investor Journey</p>
           <h2 className="h2-section text-foreground mb-12">
             How Clients Grow Their Portfolio
           </h2>

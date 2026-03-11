@@ -20,10 +20,10 @@ const features = [
   },
 ]
 
-export function Slide09InvestmentZone() {
+export function Slide08InvestmentZone() {
   return (
     <section 
-      id="slide-9" 
+      id="slide-8" 
       className="relative py-24 md:py-32 bg-background-secondary overflow-hidden"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
@@ -53,7 +53,7 @@ export function Slide09InvestmentZone() {
           {/* Right column - Content */}
           <div>
             <AnimatedSection>
-              <p className="label-tag mb-4">09 — Investment Zone</p>
+              <p className="label-tag mb-4">08 — Investment Zone</p>
               <h2 className="h2-section text-foreground mb-6">
                 Bingin · Dreamland · Uluwatu
               </h2>

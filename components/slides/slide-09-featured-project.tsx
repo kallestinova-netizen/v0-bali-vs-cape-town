@@ -30,10 +30,10 @@ const legalStatus = [
   "SLF contract signed — Certificate of Occupancy in progress",
 ]
 
-export function Slide10FeaturedProject() {
+export function Slide09FeaturedProject() {
   return (
     <section 
-      id="slide-10" 
+      id="slide-9" 
       className="relative py-24 md:py-32 bg-dark text-dark-foreground overflow-hidden noise-overlay"
     >
       {/* Background image with overlay */}
@@ -48,7 +48,7 @@ export function Slide10FeaturedProject() {
 
       <div className="relative z-10 max-w-[1200px] mx-auto px-6 md:px-8">
         <AnimatedSection>
-          <p className="label-tag text-foreground-muted mb-4">10 — Featured Project</p>
+          <p className="label-tag text-foreground-muted mb-4">09 — Featured Project</p>
           <h2 className="h2-section text-white mb-2">
             Dreamland by Feeels
           </h2>
