@@ -25,56 +25,40 @@ export function Slide12Partnership() {
         </AnimatedSection>
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
-          {/* Left column - Image + Metrics */}
-          <div className="flex flex-col gap-6">
-            {/* Villa courtyard image */}
-            <AnimatedSection delay={0.1} className="flex-1">
-              <div className="relative h-full min-h-[200px] rounded-2xl overflow-hidden">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-03-12_01-07-32-YK2EzZXYeKQHcK823JI587RP8F0uVB.jpg"
-                  alt="Colonial style villa courtyard with trees and French doors"
-                  className="absolute inset-0 w-full h-full object-cover"
-                  style={{ objectPosition: '30% 50%' }}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-dark/30 to-transparent" />
-              </div>
-            </AnimatedSection>
-
-            {/* Metrics */}
-            <AnimatedSection delay={0.15}>
-              <div className="bg-dark text-dark-foreground rounded-2xl p-6 md:p-8 noise-overlay relative overflow-hidden">
-                {/* Background accents */}
-                <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-warm/10 rounded-full blur-[80px] translate-x-1/2 -translate-y-1/2" />
-                
-                <div className="relative z-10 grid grid-cols-3 gap-4 sm:gap-6 text-center">
-                  <div>
-                    <p className="data-number text-warm">
-                      <CountUp end={8} suffix="%" />
-                    </p>
-                    <p className="label-tag text-white/60 mt-2">
-                      Broker commission
-                    </p>
-                  </div>
-                  <div>
-                    <p className="data-number text-warm">
-                      <CountUp end={180} />
-                    </p>
-                    <p className="label-tag text-white/60 mt-2">
-                      Days lead protection
-                    </p>
-                  </div>
-                  <div>
-                    <p className="data-number text-warm">
-                      <CountUp end={40} suffix="%" />
-                    </p>
-                    <p className="label-tag text-white/60 mt-2">
-                      Payment triggers
-                    </p>
-                  </div>
+          {/* Left column - Metrics */}
+          <AnimatedSection delay={0.1}>
+            <div className="bg-dark text-dark-foreground rounded-2xl p-8 md:p-10 noise-overlay relative overflow-hidden h-full flex items-center">
+              {/* Background accents */}
+              <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-warm/10 rounded-full blur-[80px] translate-x-1/2 -translate-y-1/2" />
+              
+              <div className="relative z-10 grid grid-cols-3 gap-4 sm:gap-6 text-center w-full">
+                <div>
+                  <p className="data-number text-warm">
+                    <CountUp end={8} suffix="%" />
+                  </p>
+                  <p className="label-tag text-white/60 mt-2">
+                    Broker commission
+                  </p>
+                </div>
+                <div>
+                  <p className="data-number text-warm">
+                    <CountUp end={180} />
+                  </p>
+                  <p className="label-tag text-white/60 mt-2">
+                    Days lead protection
+                  </p>
+                </div>
+                <div>
+                  <p className="data-number text-warm">
+                    <CountUp end={40} suffix="%" />
+                  </p>
+                  <p className="label-tag text-white/60 mt-2">
+                    Payment triggers
+                  </p>
                 </div>
               </div>
-            </AnimatedSection>
-          </div>
+            </div>
+          </AnimatedSection>
 
           {/* Right column - Terms + Quote */}
           <div className="space-y-8">
