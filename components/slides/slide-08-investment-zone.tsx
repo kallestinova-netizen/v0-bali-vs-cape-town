@@ -39,26 +39,26 @@ export function Slide08InvestmentZone() {
               <div className="absolute inset-0 bg-gradient-to-t from-dark/70 via-dark/30 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 space-y-3">
                 {/* Location card */}
-                <div className="bg-white/15 backdrop-blur-md rounded-2xl px-6 py-4 border border-white/30">
-                  <p className="font-mono text-xs uppercase tracking-wider text-white/80 mb-1">
+                <div className="bg-white/15 backdrop-blur-md rounded-2xl px-4 sm:px-6 py-3 sm:py-4 border border-white/30">
+                  <p className="font-mono text-[10px] sm:text-xs uppercase tracking-wider text-white/80 mb-1">
                     Investment Zone
                   </p>
-                  <p className="font-serif font-semibold text-2xl md:text-3xl text-white">
+                  <p className="font-serif font-semibold text-xl sm:text-2xl md:text-3xl text-white">
                     Bingin · Dreamland · Uluwatu
                   </p>
                 </div>
                 {/* Stats card */}
-                <div className="bg-white/15 backdrop-blur-md rounded-2xl px-6 py-4 border border-white/30">
-                  <div className="grid grid-cols-2 gap-6 text-center">
+                <div className="bg-white/15 backdrop-blur-md rounded-2xl px-4 sm:px-6 py-4 border border-white/30">
+                  <div className="grid grid-cols-2 gap-3 sm:gap-6 text-center">
                     <div>
-                      <p className="font-serif font-bold text-3xl md:text-4xl text-white">+26.3%</p>
-                      <p className="font-mono text-[10px] uppercase tracking-wider text-white/70 leading-tight mt-1">
+                      <p className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl text-white">+26.3%</p>
+                      <p className="font-mono text-[9px] sm:text-[10px] uppercase tracking-wider text-white/70 leading-tight mt-1">
                         Rental listings<br />growth YoY
                       </p>
                     </div>
-                    <div className="border-l border-white/30 pl-6">
-                      <p className="font-serif font-bold text-3xl md:text-4xl text-white">$178</p>
-                      <p className="font-mono text-[10px] uppercase tracking-wider text-white/70 leading-tight mt-1">
+                    <div className="border-l border-white/30 pl-3 sm:pl-6">
+                      <p className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl text-white">$178</p>
+                      <p className="font-mono text-[9px] sm:text-[10px] uppercase tracking-wider text-white/70 leading-tight mt-1">
                         Average daily<br />rate (ADR)
                       </p>
                     </div>

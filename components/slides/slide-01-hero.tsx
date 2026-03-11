@@ -79,7 +79,7 @@ export function Slide01Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="grid grid-cols-3 gap-6 md:gap-8"
+              className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8"
             >
               <div>
                 <p className="data-number text-bali">

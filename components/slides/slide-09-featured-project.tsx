@@ -109,18 +109,18 @@ export function Slide09FeaturedProject() {
                   Land acquired 3 years ago. Bingin prices have grown significantly since. 
                   Entry price reflects original land cost — capital appreciation is built into the purchase price.
                 </p>
-                <div className="grid grid-cols-3 gap-4 text-center">
+                <div className="grid grid-cols-3 gap-2 sm:gap-4 text-center">
                   <div>
                     <p className="label-tag text-white/50 mb-1">Entry</p>
-                    <p className="font-mono text-lg text-white">$2,350/m²</p>
+                    <p className="font-mono text-sm sm:text-lg text-white">$2,350/m²</p>
                   </div>
                   <div>
-                    <p className="label-tag text-white/50 mb-1">Forecast (12mo)</p>
-                    <p className="font-mono text-lg text-bali">$2,900/m²</p>
+                    <p className="label-tag text-white/50 mb-1">Forecast</p>
+                    <p className="font-mono text-sm sm:text-lg text-bali">$2,900/m²</p>
                   </div>
                   <div>
                     <p className="label-tag text-white/50 mb-1">Delta</p>
-                    <p className="font-mono text-lg text-warm">~23%</p>
+                    <p className="font-mono text-sm sm:text-lg text-warm">~23%</p>
                   </div>
                 </div>
               </div>

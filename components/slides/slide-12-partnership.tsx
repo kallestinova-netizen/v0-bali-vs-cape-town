@@ -31,7 +31,7 @@ export function Slide12Partnership() {
               {/* Background accents */}
               <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-warm/10 rounded-full blur-[80px] translate-x-1/2 -translate-y-1/2" />
               
-              <div className="relative z-10 grid sm:grid-cols-3 gap-8 text-center">
+              <div className="relative z-10 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-center">
                 <div>
                   <p className="data-number text-warm">
                     <CountUp end={8} suffix="%" />
