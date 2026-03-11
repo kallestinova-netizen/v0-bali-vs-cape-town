@@ -41,14 +41,14 @@ export function Slide07BaliDrivers() {
       className="relative py-16 md:py-20 lg:py-24 bg-background overflow-hidden"
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Left column - Image */}
-          <AnimatedSection className="relative order-2 lg:order-1">
-            <div className="relative h-[400px] lg:h-[600px] rounded-2xl overflow-hidden">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
+          {/* Left column - Image (vertical, matches right column height) */}
+          <AnimatedSection className="relative order-2 lg:order-1 h-full">
+            <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=800&h=1000&fit=crop&q=80"
                 alt="Uluwatu clifftop villas with surfers below"
-                className="w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-dark/40 to-transparent lg:bg-gradient-to-l" />
             </div>
