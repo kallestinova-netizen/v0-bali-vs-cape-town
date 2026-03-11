@@ -15,8 +15,8 @@ const columns = [
       "Mold free",
       "Reverse osmosis water purification system",
     ],
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop&q=80",
-    imageAlt: "Bali villa interior with pool view"
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1%20%D0%BA%D0%BE%D0%BB%D0%BE%D0%BD%D0%BA%D0%B0-gIsl3cM8AwHzjPuweV5Vaa64KCcpJE.jpg",
+    imageAlt: "Modern minimalist villa interior with wooden ceiling and panoramic windows"
   },
   {
     icon: Settings,
