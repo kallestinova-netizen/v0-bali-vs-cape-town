@@ -49,19 +49,32 @@ export function Slide02WhyMarkets() {
               </StaggerItem>
             </StaggerContainer>
 
-            {/* Quote */}
+            {/* Quote with Expert Card */}
             <AnimatedSection delay={0.3}>
-              <blockquote className="quote-block">
-                <p className="font-serif font-medium italic text-lg text-foreground leading-relaxed">
-                  "I don't recommend markets I haven't invested in myself. 
-                  Bali is in my portfolio. Cape Town is my next acquisition. 
-                  Both are lifestyle markets at a growth stage — 
-                  that's where the real opportunity is."
-                </p>
-                <cite className="block mt-4 font-mono text-[11px] uppercase tracking-wider text-foreground-muted not-italic">
-                  — Kristina Kuchinskaya
-                </cite>
-              </blockquote>
+              <div className="flex flex-col sm:flex-row gap-5 items-start">
+                {/* Expert Photo Card */}
+                <div className="flex-shrink-0">
+                  <div className="w-20 h-20 rounded-xl overflow-hidden shadow-md border border-line/50">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BA%D1%83%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20-fybfaC34u6VNx8dyjjRoZ44NGHz8HX.jpg"
+                      alt="Kristina Kuchinskaya"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </div>
+                </div>
+                {/* Quote */}
+                <blockquote className="quote-block flex-1">
+                  <p className="font-serif font-medium italic text-lg text-foreground leading-relaxed">
+                    "I don't recommend markets I haven't invested in myself. 
+                    Bali is in my portfolio. Cape Town is my next acquisition. 
+                    Both are lifestyle markets at a growth stage — 
+                    that's where the real opportunity is."
+                  </p>
+                  <cite className="block mt-4 font-mono text-[11px] uppercase tracking-wider text-foreground-muted not-italic">
+                    — Kristina Kuchinskaya
+                  </cite>
+                </blockquote>
+              </div>
             </AnimatedSection>
 
             <AnimatedSection delay={0.4}>
