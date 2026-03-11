@@ -31,7 +31,7 @@ export function Slide02WhyMarkets() {
                   <p className="body-text text-foreground-muted mt-2">
                     international tourists in 2025
                   </p>
-                  <p className="font-mono text-sm text-bali font-medium mt-1">+40% YoY</p>
+                  <p className="font-mono text-sm text-bali font-medium mt-1">YOY +9.7%</p>
                   <p className="source-line mt-3">Source: BPS Bali, Sept 2025</p>
                 </div>
               </StaggerItem>
