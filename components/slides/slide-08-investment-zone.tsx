@@ -28,44 +28,46 @@ export function Slide08InvestmentZone() {
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Left column - Image */}
-          <AnimatedSection className="relative">
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Best-Beaches-in-Uluwatu-Bali-Dreamland-Beach%20%281%29-n2cSuAQoAC9lnrdfrVvLSJjR7YPyYC.jpg"
-                alt="Aerial view of Dreamland Beach Uluwatu Bali with turquoise ocean and cliff resorts"
-                className="w-full h-full object-cover object-center"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-dark/50 to-transparent" />
-              <div className="absolute bottom-6 left-6 right-6 space-y-3">
-                {/* Location card */}
-                <div className="bg-white/95 backdrop-blur-sm rounded-xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-wider text-bali mb-1">
-                    Investment Zone
-                  </p>
-                  <p className="font-serif font-semibold text-lg text-foreground">
-                    Bingin · Dreamland · Uluwatu
-                  </p>
-                </div>
-                {/* Stats card */}
-                <div className="bg-white/95 backdrop-blur-sm rounded-xl p-4">
-                  <div className="grid grid-cols-2 gap-4 text-center">
-                    <div>
-                      <p className="font-serif font-bold text-xl text-foreground">+26.3%</p>
-                      <p className="font-mono text-[9px] uppercase tracking-wider text-foreground-muted leading-tight">
-                        Rental listings<br />growth YoY
-                      </p>
-                    </div>
-                    <div className="border-l border-line pl-4">
-                      <p className="font-serif font-bold text-xl text-foreground">$178</p>
-                      <p className="font-mono text-[9px] uppercase tracking-wider text-foreground-muted leading-tight">
-                        Average daily<br />rate (ADR)
-                      </p>
-                    </div>
+          {/* Left column - Image Bento Card */}
+          <AnimatedSection className="relative flex items-center justify-center">
+            <div className="relative w-full max-w-[500px] mx-auto">
+              <div className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-xl">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Best-Beaches-in-Uluwatu-Bali-Dreamland-Beach%20%281%29-mx5qWDJKqQpIqJR4wpCdkIQ2KFenDv.jpg"
+                  alt="Aerial view of Dreamland Beach Uluwatu Bali with turquoise ocean and cliff resorts"
+                  className="w-full h-full object-cover object-center"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark/60 via-dark/20 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4 space-y-2">
+                  {/* Location card */}
+                  <div className="bg-white/95 backdrop-blur-sm rounded-lg px-4 py-3">
+                    <p className="font-mono text-[9px] uppercase tracking-wider text-bali mb-0.5">
+                      Investment Zone
+                    </p>
+                    <p className="font-serif font-semibold text-base text-foreground">
+                      Bingin · Dreamland · Uluwatu
+                    </p>
                   </div>
-                  <p className="font-mono text-[8px] text-foreground-muted text-center mt-3 pt-2 border-t border-line/50">
-                    Source: AirDNA · Bali, 2025
-                  </p>
+                  {/* Stats card */}
+                  <div className="bg-white/95 backdrop-blur-sm rounded-lg px-4 py-3">
+                    <div className="grid grid-cols-2 gap-3 text-center">
+                      <div>
+                        <p className="font-serif font-bold text-lg text-foreground">+26.3%</p>
+                        <p className="font-mono text-[8px] uppercase tracking-wider text-foreground-muted leading-tight">
+                          Rental listings<br />growth YoY
+                        </p>
+                      </div>
+                      <div className="border-l border-line pl-3">
+                        <p className="font-serif font-bold text-lg text-foreground">$178</p>
+                        <p className="font-mono text-[8px] uppercase tracking-wider text-foreground-muted leading-tight">
+                          Average daily<br />rate (ADR)
+                        </p>
+                      </div>
+                    </div>
+                    <p className="font-mono text-[7px] text-foreground-muted text-center mt-2 pt-2 border-t border-line/50">
+                      Source: AirDNA · Bali, 2025
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
