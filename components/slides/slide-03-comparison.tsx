@@ -36,7 +36,7 @@ const comparisonData = [
     parameter: "Gross rental yield",
     bali: "7–15%",
     baliTag: "higher",
-    capetown: "6–11% (avg 8.98%)",
+    capetown: "6–10%",
     highlight: "bali"
   },
   {
@@ -70,6 +70,27 @@ const comparisonData = [
     parameter: "Property mgmt",
     bali: "Active mgmt required",
     capetown: "Passive-friendly",
+    highlight: null
+  },
+  {
+    parameter: "Occupancy",
+    bali: "60–75%",
+    baliTag: "higher",
+    capetown: "45–60%",
+    highlight: "bali"
+  },
+  {
+    parameter: "Investment horizon",
+    bali: "5–10 years",
+    baliTag: "shorter",
+    capetown: "7–15 years",
+    highlight: "bali"
+  },
+  {
+    parameter: "Market maturity",
+    bali: "Emerging",
+    capetown: "Mature",
+    capetownTag: "stable",
     highlight: null
   },
 ]
