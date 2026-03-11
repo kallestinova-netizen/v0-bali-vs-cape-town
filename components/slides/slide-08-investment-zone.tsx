@@ -30,11 +30,11 @@ export function Slide08InvestmentZone() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left column - Image */}
           <AnimatedSection className="relative">
-            <div className="relative h-[400px] lg:h-[550px] rounded-2xl overflow-hidden">
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=1000&fit=crop&q=80"
-                alt="Bingin beach Bali with surfers and golden hour light"
-                className="w-full h-full object-cover"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Best-Beaches-in-Uluwatu-Bali-Dreamland-Beach%20%281%29-n2cSuAQoAC9lnrdfrVvLSJjR7YPyYC.jpg"
+                alt="Aerial view of Dreamland Beach Uluwatu Bali with turquoise ocean and cliff resorts"
+                className="w-full h-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/50 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
