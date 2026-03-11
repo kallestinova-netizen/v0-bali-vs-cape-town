@@ -93,6 +93,13 @@ const comparisonData = [
     capetownTag: "stable",
     highlight: null
   },
+  {
+    parameter: "Tourism arrivals",
+    bali: "6.9M / year",
+    baliTag: "higher",
+    capetown: "3.1M / year",
+    highlight: "bali"
+  },
 ]
 
 export function Slide03Comparison() {
