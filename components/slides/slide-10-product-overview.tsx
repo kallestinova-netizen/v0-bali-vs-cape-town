@@ -12,6 +12,8 @@ const columns = [
       "Premium architecture",
       "Seismic-resistant construction",
       "Natural materials · mould-free technology",
+      "Mold free",
+      "Reverse osmosis water purification system",
     ],
     image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop&q=80",
     imageAlt: "Bali villa interior with pool view"
