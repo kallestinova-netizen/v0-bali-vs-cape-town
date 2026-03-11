@@ -9,7 +9,7 @@ export function Slide02WhyMarkets() {
       id="slide-2" 
       className="relative py-24 md:py-32 bg-background overflow-hidden"
     >
-      <div className="max-w-[1200px] mx-auto px-6 md:px-8">
+      <div className="max-w-[1200px] mx-auto px-8 md:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
           {/* Left column - Content */}
           <div>

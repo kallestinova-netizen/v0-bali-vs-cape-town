@@ -15,7 +15,7 @@ export function Slide01Hero() {
         <div className="absolute bottom-0 right-0 w-[800px] h-[800px] bg-capetown/10 rounded-full blur-[150px] translate-x-1/3 translate-y-1/3" />
       </div>
 
-      <div className="relative z-10 max-w-[1200px] mx-auto px-6 md:px-8 min-h-screen flex items-center">
+      <div className="relative z-10 max-w-[1200px] mx-auto px-8 md:px-8 min-h-screen flex items-center">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 w-full py-20 lg:py-0">
           {/* Left column - Text */}
           <div className="flex flex-col justify-center">
