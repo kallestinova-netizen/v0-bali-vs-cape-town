@@ -49,23 +49,17 @@ export function Slide08InvestmentZone() {
                 </div>
                 {/* Stats card */}
                 <div className="bg-white/95 backdrop-blur-sm rounded-xl p-4">
-                  <div className="grid grid-cols-3 gap-3 text-center">
+                  <div className="grid grid-cols-2 gap-4 text-center">
                     <div>
-                      <p className="font-serif font-bold text-xl text-bali">+26.3%</p>
+                      <p className="font-serif font-bold text-xl text-foreground">+26.3%</p>
                       <p className="font-mono text-[9px] uppercase tracking-wider text-foreground-muted leading-tight">
                         Rental listings<br />growth YoY
                       </p>
                     </div>
-                    <div className="border-x border-line">
+                    <div className="border-l border-line pl-4">
                       <p className="font-serif font-bold text-xl text-foreground">$178</p>
                       <p className="font-mono text-[9px] uppercase tracking-wider text-foreground-muted leading-tight">
                         Average daily<br />rate (ADR)
-                      </p>
-                    </div>
-                    <div>
-                      <p className="font-serif font-bold text-xl text-bali">86%</p>
-                      <p className="font-mono text-[9px] uppercase tracking-wider text-foreground-muted leading-tight">
-                        Average<br />occupancy
                       </p>
                     </div>
                   </div>
