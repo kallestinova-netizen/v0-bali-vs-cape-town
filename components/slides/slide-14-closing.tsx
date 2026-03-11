@@ -19,8 +19,8 @@ export function Slide14Closing() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1600&h=900&fit=crop&q=80"
-          alt="Luxury cliff villa Bali sunset aerial view"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-03-12_01-07-21-OHYYuFJvwAiKr05nN2588onA8z849m.jpg"
+          alt="Aerial panoramic view of Cape Town with Table Mountain"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/90 to-dark/60" />
