@@ -37,33 +37,33 @@ export function Slide08InvestmentZone() {
                 className="absolute inset-0 w-full h-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/70 via-dark/30 to-transparent" />
-              <div className="absolute bottom-5 left-5 right-5 space-y-2">
+              <div className="absolute bottom-6 left-6 right-6 space-y-3">
                 {/* Location card */}
-                <div className="bg-white/95 backdrop-blur-sm rounded-xl px-5 py-3">
-                  <p className="font-mono text-[9px] uppercase tracking-wider text-bali mb-0.5">
+                <div className="bg-white/15 backdrop-blur-md rounded-2xl px-6 py-4 border border-white/30">
+                  <p className="font-mono text-xs uppercase tracking-wider text-white/80 mb-1">
                     Investment Zone
                   </p>
-                  <p className="font-serif font-semibold text-lg text-foreground">
+                  <p className="font-serif font-semibold text-2xl md:text-3xl text-white">
                     Bingin · Dreamland · Uluwatu
                   </p>
                 </div>
                 {/* Stats card */}
-                <div className="bg-white/95 backdrop-blur-sm rounded-xl px-5 py-3">
-                  <div className="grid grid-cols-2 gap-4 text-center">
+                <div className="bg-white/15 backdrop-blur-md rounded-2xl px-6 py-4 border border-white/30">
+                  <div className="grid grid-cols-2 gap-6 text-center">
                     <div>
-                      <p className="font-serif font-bold text-xl text-foreground">+26.3%</p>
-                      <p className="font-mono text-[8px] uppercase tracking-wider text-foreground-muted leading-tight">
+                      <p className="font-serif font-bold text-3xl md:text-4xl text-white">+26.3%</p>
+                      <p className="font-mono text-[10px] uppercase tracking-wider text-white/70 leading-tight mt-1">
                         Rental listings<br />growth YoY
                       </p>
                     </div>
-                    <div className="border-l border-line pl-4">
-                      <p className="font-serif font-bold text-xl text-foreground">$178</p>
-                      <p className="font-mono text-[8px] uppercase tracking-wider text-foreground-muted leading-tight">
+                    <div className="border-l border-white/30 pl-6">
+                      <p className="font-serif font-bold text-3xl md:text-4xl text-white">$178</p>
+                      <p className="font-mono text-[10px] uppercase tracking-wider text-white/70 leading-tight mt-1">
                         Average daily<br />rate (ADR)
                       </p>
                     </div>
                   </div>
-                  <p className="font-mono text-[8px] text-foreground-muted text-center mt-2 pt-2 border-t border-line/50">
+                  <p className="font-mono text-[9px] text-white/60 text-center mt-3 pt-3 border-t border-white/20">
                     Source: AirDNA · Bali, 2025
                   </p>
                 </div>
