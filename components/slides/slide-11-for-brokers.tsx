@@ -94,9 +94,10 @@ export function Slide11ForBrokers() {
           <AnimatedSection delay={0.2} className="lg:col-span-2">
             <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden sticky top-8">
               <img
-                src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&h=900&fit=crop&q=80"
-                alt="Luxury Bali villa exterior"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/11%20%D1%81%D0%BB%D0%B0%D0%B8%CC%86%D0%B4-ycWAAsoYNEU7WCJxtL6cjwQWdC9V4l.jpg"
+                alt="Modern two-story glass villa with pool and tropical garden"
                 className="w-full h-full object-cover"
+                style={{ objectPosition: '60% 50%' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/60 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
