@@ -8,7 +8,7 @@ const columns = [
     icon: Home,
     title: "2 and 3 bedroom Designer Villas",
     items: [
-      "137m² · 2 floors · private pool",
+      "127m² – 137m² · 2 floors · private pool",
       "Premium architecture",
       "Seismic-resistant construction",
       "Natural materials · mould-free technology",
