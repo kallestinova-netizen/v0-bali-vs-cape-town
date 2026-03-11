@@ -42,8 +42,8 @@ const columns = [
       "Digital nomads",
       "European & Russian-speaking buyers dominate inquiries in Bingin zone",
     ],
-    image: "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=600&h=400&fit=crop&q=80",
-    imageAlt: "Couple on villa terrace with ocean view"
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3%20%D0%BA%D0%BE%D0%BB%D0%BE%D0%BD%D0%BA%D0%B0-sBkSRcpIKxcbMOOcL3znlrWh6vJxhr.jpg",
+    imageAlt: "Modern two-story tropical villa with balconies and palm trees"
   },
 ]
 
