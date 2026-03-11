@@ -26,10 +26,10 @@ export function Slide02WhyMarkets() {
                 <div className="panel border-t-[3px] border-t-bali">
                   <p className="label-tag text-bali mb-2">Bali</p>
                   <p className="data-number text-foreground">
-                    <CountUp end={6.5} decimals={1} suffix="M" />
+                    <CountUp end={4.9} decimals={1} suffix="M" />
                   </p>
                   <p className="body-text text-foreground-muted mt-2">
-                    international tourists in 2024
+                    international tourists in 2025
                   </p>
                   <p className="font-mono text-sm text-bali font-medium mt-1">+40% YoY</p>
                   <p className="source-line mt-3">Source: BPS Bali, Sept 2025</p>
